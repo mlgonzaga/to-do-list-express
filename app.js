@@ -8,4 +8,5 @@ app.use('/checklists',checklistRouter)
 
 app.listen(3000,()=> {
     console.log('Servidor ativo.')
+   // res.send()
 })
