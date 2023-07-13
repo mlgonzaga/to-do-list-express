@@ -1,5 +1,6 @@
 const express = require('express');
 const checklistRouter = require('./src/routes/checklist')
+require('./config/database')
 const app = express();
 
 app.use(express.json()); //middleware do Express para processar  JSON quando for passado um JSON no Body da requisição
